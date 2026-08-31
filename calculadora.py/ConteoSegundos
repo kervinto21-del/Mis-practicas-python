@@ -1,0 +1,11 @@
+num1 = int(input())
+num2 = int(input())
+num3 = int(input())
+num4 = int(input())
+suma1 = int(86400)
+suma2 = 3600
+suma3 = 60
+suma4 = 1
+op = ((num1 * suma1) + (num2 * suma2) + (num3 * suma3) + (num4 + suma4)) - 1
+Resultado = op
+print(Resultado)
