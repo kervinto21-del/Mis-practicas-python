@@ -11,9 +11,9 @@ def Calculadora(num1, op, num2):
        return num1 * num2
     elif op == "/":
        return num1 / num2
-num1 = float(input())
-op = input()
-num2 = float(input())
+num1 = float(input("Ingresa el primer número: "))
+op = input("Ingresa la operación a realizar: ")
+num2 = float(input("Ingresa el segundo número: "))
 resultado = Calculadora(num1, op, num2)
 print(resultado)
 

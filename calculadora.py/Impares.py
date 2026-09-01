@@ -1,4 +1,4 @@
-num1 = int(input())
+num1 = int(input("Ingresa el número a verificar: "))
 num2 = 2
 op = "%"
 def Numero (num1, op, num2):
